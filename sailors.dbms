@@ -1,0 +1,13 @@
+create table Sailors(sid number(2),sname varchar(10),rating number(2),age number(3,1));
+insert into Sailors values(22,'Dustin',7,15.0);
+insert into Sailors values(29,'Brutus',1,33.0);
+insert into Sailors values(31,'Lubber',8,55.5);
+insert into Sailors values(32,'Andy',8,25.5);
+insert into Sailors values(58,'Rusty',10,35.0);
+insert into Sailors values(64,'Horatio',7,35.0);
+insert into Sailors values(71,'Zorba',10,16.0);
+insert into Sailors values(74,'Horatio',9,35.0);
+insert into Sailors values(85,'Art',3,25.5);
+insert into Sailors values(95,'Bob',3,63.5);
+select *
+from Sailors;
