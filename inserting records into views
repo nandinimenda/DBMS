@@ -1,0 +1,7 @@
+create table R(a varchar(20),b varchar(20),c number(2),d number(2));
+insert into R values('al','b1',10,10);
+insert into R values('a2','b2',2,20);
+insert into R values('a3','b3',3,30);
+insert into R values('a4','b4',4,40);
+select *
+from R;
